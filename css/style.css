@@ -2,90 +2,167 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:'Rubik',sans-serif ;
 }
 
-ul,ol {
+ul, ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 a {
-    display: block;
+    display: inline-block;
     text-decoration: none;
-    color: #515151;
 }
 
 .container {
-    width: 1180px;
-    margin: 200px auto;
-    /* border: solid 0px #a5a4a4; */
-    background-color: rgb(241, 239, 239);
-    border-radius: 5px;
-    box-shadow: 0 0 10px 5px #e2dfdf;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    background-color: #F2F2F2;
+    /* font-family: 'Mulish', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+.omega-head {
+    position: relative;
+    width: 1600px;
+    height: 877px;
+    margin: 2px auto;
+    background-image:url("../img/oval-bg-1.png"),url("../img/bg-img-39.png"), url("../img/bg-img.png");
+    background-size:308px, 210px 210px, contain;
+    background-repeat: no-repeat;
+    background-position:770px 105px ,1268px 475px,0 0;
+}
+nav {
+    display: flex;
+    align-items: center;
 }
 
 .nav-list {
+    position: absolute;
+    top: 30px;
+    left: 173px;
+    width: 217px;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    
+    justify-content: space-between;
+
+}
+nav h1{
+    position: absolute;
+    top: 23px;
+    left: 49px;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.750316px;
+    color: #19191B;
 }
 .nav-link{
-    margin: 20px 26px;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.500211px;
+    color: #131212;
 }
-@media(max-width:1500px){
-    .container{
-        width: 1100px;
-    }
+.a-demos:hover{
+    color:#F04037;
 }
-@media(max-width:1300px){
-    .container{
-        width: 1000px;
-    }
+.text h2{
+    position: absolute;
+    top: 240px;
+    left: 242px;
+    width: 556px;
+    height: 140px;
+    /* background-color: rgb(184, 173, 173); */
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    letter-spacing: -1.87579px;
+    color: #19191B;
 }
-@media(max-width:1100px){
-    .container{
-        width: 900px;
-    }
+.text p{
+    position: absolute;
+    top: 409px;
+    left: 245px;
+    width: 536px;
+    height: 117px;
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #696871;
 }
-@media(max-width:1000px){
-    .container{
-        width: 800px;
-    }
+.label{
+    position: absolute;
+    top: 566px;
+    left: 245px;
+    width: 539px;
+    height: 71px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
 }
-@media(max-width:900px){
-    .container{
-        width: 700px;
-    }
+.mail{
+    /* position: absolute; */
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: -0.562737px;
+    color: #696871;
+    border: none;
+    margin-left: 21px;
+    height: 23px;
+    padding: 30px 20px;
 }
-@media(max-width:800px){
-    .container{
-        width: 600px;
-    }
+.message{
+    margin-left: 20px;
 }
-@media(max-width:700px){
-    .container{
-        width: 500px;
-    }
+.button{
+    width: 200px;
+    height: 60px;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: #FFFFFF;
+    background-color: #F04037;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+    margin-left:30px;
+    padding: 0;
 }
-@media(max-width:600px){
-    .container{
-        width: 400px;
-    }
+.service{
+    position: relative;
+    background-color: #413E65;
+    height: 816px;
+    width: 1600px;
+    margin: auto;  
+    top: -20px;
 }
-@media(max-width:500px){
-    .container{
-        width: 300px;
-    }
+.context{
+    display: flex;
 }
-@media(max-width:400px){
-    .container{
-        width: 200px;
-    }
+.service-list{
+    position: absolute;
+    height: 512px;
+    top: 152px;
+    left: 246px;
+
 }
-@media(max-width:300px){
-    .container{
-        width: 100px;
-    }
+.service-item{
+    width: 389px;
+    height: 154px;
+    background-color: #fff;
+    margin-top: 25px;
 }
