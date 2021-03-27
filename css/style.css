@@ -4,7 +4,8 @@
     padding: 0;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -20,53 +21,60 @@ a {
     text-decoration: none;
 }
 
-.box{
-    margin-top: 300px ;
+.box {
+    margin-top: 300px;
 }
-.box1{
+
+.box1 {
     margin: 0 auto;
-    border-radius: 50%;;
+    border-radius: 50%;
+    ;
     width: 100px;
     height: 100px;
-    animation-iteration-count:infinite;
+    animation-iteration-count: infinite;
     animation-name: phone-m;
     animation-direction: alternate;
     /* animation-delay: 5s; */
     animation-duration: 1s;
     animation-timing-function: linear;
 
-   
-    
+
+
 }
-.phone{
-    transform: translate(50%,50%);
+
+.phone {
+    transform: translate(50%, 50%);
     position: fixed;
     width: 50x;
     height: 50px;
 
 
 }
-@keyframes phone-m{
-    0%{
-        transform: scale(1) ;
+
+@keyframes phone-m {
+    0% {
+        transform: scale(1);
         background-color: rgb(238, 62, 70);
-        box-shadow: 0 0 3px 11px rgb(236, 196, 209),0 0 3px 15px  rgb(255, 0, 200);
+        box-shadow: 0 0 3px 11px rgb(236, 196, 209), 0 0 3px 15px rgb(255, 0, 200);
     }
-    25%{
-        transform:rotate(30deg) scale(1.2) ;
-        box-shadow: 0 0 5px 5px rgb(201, 201, 243),0 0 5px 30px rgb(232, 204, 238);
-        
-        
+
+    25% {
+        transform: rotate(30deg) scale(1.2);
+        box-shadow: 0 0 5px 5px rgb(201, 201, 243), 0 0 5px 30px rgb(232, 204, 238);
+
+
     }
-    75%{
+
+    75% {
         transform: rotate(15deg) scale(1.5);
-        box-shadow: 0 0 3px 25px rgb(32, 238, 176),0 0 10px 35px rgb(26, 207, 108);
+        box-shadow: 0 0 3px 25px rgb(32, 238, 176), 0 0 10px 35px rgb(26, 207, 108);
     }
-    100%{
+
+    100% {
         transform: scale(1);
         background-color: rgb(26, 207, 108);
         box-shadow: 0 0 50px 5px rgb(224, 68, 190);
     }
-    
-  
+
+
 }
