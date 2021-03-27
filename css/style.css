@@ -28,7 +28,6 @@ a {
     border-radius: 50%;;
     width: 100px;
     height: 100px;
-    /* position: fixed; */
     animation-iteration-count:infinite;
     animation-name: phone-m;
     animation-direction: alternate;
