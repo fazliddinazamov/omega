@@ -28,18 +28,13 @@ a {
 .box1 {
     margin: 0 auto;
     border-radius: 50%;
-    ;
     width: 100px;
     height: 100px;
     animation-iteration-count: infinite;
     animation-name: phone-m;
     animation-direction: alternate;
-    /* animation-delay: 5s; */
     animation-duration: 1s;
     animation-timing-function: linear;
-
-
-
 }
 
 .phone {
@@ -47,7 +42,6 @@ a {
     position: fixed;
     width: 50x;
     height: 50px;
-
 
 }
 
