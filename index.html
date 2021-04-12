@@ -4,91 +4,245 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>COVID-19</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/syle.css">
 </head>
 <body>
-
-
-
-  <nav class="navbar navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="https://picsum.photos/400/300" width="30px" height="24px" alt="picsum">
-        MEROS
-      </a>
-      <button type="button" class="btn btn-primary " data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Каталог </button>
-        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-          <div class="offcanvas-header">
-            <!-- <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5> -->
-            <!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"  aria-label="Close"></button> -->
-          </div>
-          <div class="offcanvas-body small">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Page
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  </div>
+    <nav>
+        <div class="container">
+            <div class="content">
+                <div class="head">
+                    <a class="head-a" href="#">
+                        <img src="./img/logo-head.png" alt="logo-head">
+                        <h1>Covid - 19</h1>
+                    </a>
                 </div>
-              </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="overview" href="#">
+                            Overview       
+                        </a>
+                        <div class="tochka"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="overview" href="#">
+                            Contagion         
+                        </a>
+                        <div class="tochka"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="overview" href="#">
+                             Symptoms
+                        </a>  
+                        <div class="tochka"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="overview" href="#">
+                            Prevention   
+                        </a>
+                        <div class="tochka"></div>
+                    </li>
+                </ul>
+                <a class="concat" href="#">
+                    Contact
+                </a>
             </div>
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                 Page-2
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  </div>
+        </div>
+    </nav>
+    <section class="covid-alert">
+        <div class="container container-covid">
+            <div class="context">
+                <h3>COVID-19 Alert </h3>
+                <h2>Stay at Home quarantine   To stop Corona virus</h2>
+                <p>There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to .</p>
+                <a href="#">Let Us Help</a>
+            </div>
+        </div>
+    </section>
+    <section class="coronavirus">
+        <div class="container">
+            <div class="content-coronavirus">
+                <div class="virus-3">
+                    <img src="./img/virus-3.png" alt="virus-3">
                 </div>
-              </div>
+                <div class="context-coronavirus">
+                    <h2>
+                       What Is Covid-1 
+                    </h2>
+                    <h3>
+                        Coronavirus
+                    </h3>
+                    <p>Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent outbreak of respiratory illness now called COVID-19.Lauren Sauer, M.S., the director of operations with the Johns Hopkins Office of Critical Event Preparedness and Response     </p>
+                    <a href="#">Learn More</a>
+                </div>
             </div>
-          </div>
         </div>
-        
-        <div class="btn-group w-50" role="group" aria-label="Basic checkbox toggle button group">
-          <input type="search" class="form-control " placeholder="Search" aria-label="Search">
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              Все категории
-
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
-          <button class="btn btn-outline-primary " type="submit">
-            <img src="./assets/img/search.png" alt="icon-l" width="25px" height="25px">
-          </button>
-          
+    </section>
+    <section class="contagion">
+        <div class="container">
+            <div class="content-contagion">
+                <div class="context-contagion">
+                    <h3>Covid-19</h3>
+                    <h2>Contagion</h2>
+                    <p>Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type</p>
+                </div>
+                <ul class="contagion-list">
+                    <li class="contagion-item">
+                        <img class="contagion-img" src="./img/virus-air.png" alt="virus-air">
+                        <h3>Air Transmission</h3>
+                        <p>Objectively evolve tactical expertise before extensible initiatives. Efficiently simplify</p>
+                    </li>
+                    <li class="contagion-item">
+                        <img class="contagion-img2" src="./img/hand.png" alt="hand">
+                        <h3>Human Contacts</h3>
+                        <p>Washing your hands is one of thesimplest ways you can protect</p>
+                    </li>
+                    <li class="contagion-item">
+                        <img class="contagion-img3" src="./img/chashka.png" alt="chashka">
+                        <h3>Containted Objects</h3>
+                        <p>Use the tissue while sneezing,In this way, you can protect your droplets.</p>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        <a href="#" class="navbar-brand ms-4">
-          <img src="https://picsum.photos/400/300" width="30px" height="24px" alt="picsum">
-          Войти
-        </a>
-        <a href="#" class="navbar-brand">
-          <img src="https://picsum.photos/400/300" width="30px" height="24px" alt="picsum">
-          Избронное
-        </a>
-        <a href="#" class="navbar-brand">
-          <img src="https://picsum.photos/400/300" width="30px" height="24px" alt="picsum">
-          Корзина
-        </a>
-    </div>
-  </nav>
-    <script src="./assets/js/bootstrap.min.js"></script>
+    </section>
+    <section class="symptomps">
+        <div class="container">
+            <div class="content-symptomps">
+                <div class="context-symptomps">
+                    <h2>Covid-19</h2>
+                    <h3>Symptomps</h3>
+                    <p>Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent outbreak of respiratory </p>
+                </div>
+                <img src="./img/isitma.png" alt="isitma">
+            </div>
+        </div>
+    </section>
+    <section class="What-should">
+        <div class="container">
+            <div class="content-should">
+                <div class="context-should">
+                    <h2>Covid-19</h2>
+                    <h3>What  should we do</h3>
+                    <p>Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused</p>
+                </div>
+                <ul class="should-list">
+                    <li class="should-item">
+                        <div class="content-text-should">
+                            <div class="number-icon">
+                                <h2>01</h2>
+                            </div>
+                            <div class="text-should">
+                                <h3>wear masks</h3>
+                                <p>Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box" thinking. Objectively </p>
+                            </div>
+                        </div>
+                        <img class="masks" src="./img/mask1.png" alt="mask1">
+                    </li>
+                    <li class="should-item">
+                        <div class="content-text-should">
+                            <div class="number-icon">
+                                <h2>02</h2>
+                            </div>
+                            <div class="text-should">
+                                <h3>Wash Your Hands</h3>
+                                <p>Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box" thinking. Objectively Continually seize impactful vortals </p>
+                            </div>
+                        </div>
+                        <img class="masks" src="./img/mask-2.png" alt="mask-2">
+                    </li>
+                    <li class="should-item">
+                        <div class="content-text-should">
+                            <div class="number-icon">
+                                <h2>03</h2>
+                            </div>
+                            <div class="text-should">
+                                <h3>Use nose -  rag</h3>
+                                <p>Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box" thinking. Objectively </p>
+                            </div>
+                        </div>
+                        <img class="masks" src="./img/mask-3.png" alt="mask-3">
+                    </li>
+                    <li class="should-item">
+                        <div class="content-text-should">
+                            <div class="number-icon">
+                                <h2>04</h2>
+                            </div>
+                            <div class="text-should">
+                                <h3>Avoid contacts</h3>
+                                <p>Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic </p>
+                            </div>
+                        </div>
+                        <img class="masks" src="./img/mask-4.png" alt="mask-4">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="have-question">
+        <div class="container">
+            <div class="content-have">
+                <div class="img-all">
+                    <img class="map-1" src="./img/map-all.png" alt="map-all">
+                    <img class="map-2" src="./img/group-97.png" alt="group-97">
+                    <img class="map-3" src="./img/search.png" alt="search">
+                    <img class="map-4" src="./img/report.png" alt="report">
+                </div>
+                <div class="comtext-body">
+                    <h2>Have Question in mind?Let us help you</h2>
+                    <form class="form">
+                        <input type="email" placeholder="snmonydemo@gmail.com">
+                        <button type="button" class="btn" >Send</button>
+                    </form>
+                </div>
+                <div class="context-footer">
+                    <a class="head-a head-covid" href="#">
+                        <img src="./img/logo-head.png" alt="logo-head">
+                        <h1>Covid - 19</h1>
+                    </a>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="#">
+                                Overview          
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">
+                                Symptoms       
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">
+                               Prevention      
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">
+                                Treatment
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="links">
+                        <a href="#">
+                            <img  class="links-icon" src="./img/facebook.png" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img class="links-icon2" src="./img/youtube.png" alt="youtube">
+                        </a>
+                        <a href="#">
+                            <img class="links-icon3" src="./img/vivo.png" alt="vivo">
+                        </a>
+                        <a href="#">
+                            <img class="links-icon4" src="./img/twiter.png" alt="twiter">
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="footer-link">2020 @ All rights reserved by pixelspark.co</a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
